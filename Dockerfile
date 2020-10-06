@@ -11,4 +11,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
 # install okta-aws-cli-assume-role tool
-RUN curl 'https://raw.githubusercontent.com/oktadeveloper/okta-aws-cli-assume-role/master/bin/install.sh' | bash
+RUN curl "https://raw.githubusercontent.com/oktadeveloper/okta-aws-cli-assume-role/master/bin/install.sh" | bash -s -- -i \
+	&& mv /root/.okta/bin/* /usr/local/bin/
