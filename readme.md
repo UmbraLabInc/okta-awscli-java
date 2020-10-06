@@ -1,3 +1,7 @@
+# NOTE
+
+Forked from [tom-smith-okta/okta-awscli-java](https://github.com/tom-smith-okta/okta-awscli-java) and updated
+
 # Docker image for the Okta aws-cli-assume-role tool
 
 This ubuntu-based image was built to run Okta's [java-based AWS CLI tool](https://github.com/oktadeveloper/okta-aws-cli-assume-role)
